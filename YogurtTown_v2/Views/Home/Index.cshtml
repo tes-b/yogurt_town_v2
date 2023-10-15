@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+
+    var imgCharactorIdle = "@Url.Content("~/img/charactor/charactor_idle(128x64).png")";
+    var imgCharactorWalk = "@Url.Content("~/img/charactor/charactor_walking(192x64).png")";
+    var imgCharactorRun = "@Url.Content("~/img/charactor/charactor_running(256x64).png")";
+
+    var imgBackgroundNight1 = "@Url.Content("~/img/background/1.png")";
+    var imgBackgroundNight2 = "@Url.Content("~/img/background/2.png")";
+    var imgBackgroundNight3 = "@Url.Content("~/img/background/3.png")";
+    var imgBackgroundNight4 = "@Url.Content("~/img/background/4.png")";
+    var imgBackgroundNight5 = "@Url.Content("~/img/background/5.png")";
+
+    var imgTileMedieval = "@Url.Content("~/img/tiles/Medieval_tiles_free2_0.png")";
+
+    var imgObjBoard = "@Url.Content("~/img/tiles/billboard(256x96).png")";
+    var imgObjBoardWordle = "@Url.Content("~/img/tiles/billboard_wordle(256x96).png")";
+    var imgObjBoardResume = "@Url.Content("~/img/tiles/billboard_resume(256x96).png")";
+    var imgObjBoardProjects = "@Url.Content("~/img/tiles/billboard_projects(256x96).png")";
+    var imgObjBoardGithub = "@Url.Content("~/img/tiles/billboard_github(256x96).png")";
+    var imgObjBoardBlog = "@Url.Content("~/img/tiles/billboard_blog(256x96).png")";
+
+    var imgBtnPrev = "@Url.Content("~/img/tiles/button_prev(32x96).png")";
+    var imgBtnNext = "@Url.Content("~/img/tiles/button_next(32x96).png")";
+    var imgBtnSelect = "@Url.Content("~/img/tiles/button_select(48x96).png")";
+
+    var imgCharactorIdle = "@Url.Content("~/img/charactor/charactor_idle(128x64).png")";
+    var imgCharactorWalk = "@Url.Content("~/img/charactor/charactor_walking(192x64).png")";
+    var imgCharactorRun = "@Url.Content("~/img/charactor/charactor_running(256x64).png")";
+
+</script>
+
+<canvas id="canvas"></canvas>
+
+<script type="text/javascript" src="~/js/canvas.js"></script>
+<script type="text/javascript" src="~/js/camera.js"></script>
+<script type="text/javascript" src="~/js/board.js"></script>
+<script type="text/javascript" src="~/js/button.js"></script>
+<script type="text/javascript" src="~/js/map.js"></script>
+<script type="text/javascript" src="~/js/charactor.js"></script>
+<script type="text/javascript" src="~/js/background.js"></script>
+<script type="text/javascript" src="~/js/info.js"></script>
+<script type="text/javascript" src="~/js/town.js"></script>
+
+<p id="charactor-pos"></p>
